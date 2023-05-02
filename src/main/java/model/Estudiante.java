@@ -4,11 +4,11 @@ public class Estudiante {
 
 	private String name, apellido, rut;
 	private  int numMatricula;
-	private CarreraEstudiante carrera;
+	private Carrera carrera;
 
 	//Constructor con y sin parametros.
 
-	public Estudiante(String name, String apellido, String rut, int numMatricula, CarreraEstudiante carrera) {
+	public Estudiante(String name, String apellido, String rut, int numMatricula, Carrera carrera) {
 		this.name = name;
 		this.apellido = apellido;
 		this.rut = rut;
@@ -52,11 +52,11 @@ public class Estudiante {
 		this.numMatricula = numMatricula;
 	}
 
-	public CarreraEstudiante getCarrera() {
+	public Carrera getCarrera() {
 		return carrera;
 	}
 
-	public void setCarrera(CarreraEstudiante carrera) {
+	public void setCarrera(Carrera carrera) {
 		this.carrera = carrera;
 	}
 }

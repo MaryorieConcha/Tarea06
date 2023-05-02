@@ -4,13 +4,13 @@ import utils.ValidadorRut;
 
 import java.util.ArrayList;
 
-public class CarreraEstudiante {
+public class Carrera {
 
     private String careerName, careerCode;
     private int cantSemestres;
     private ArrayList<Estudiante> estudiantes;
 
-    public CarreraEstudiante(String careerName, String careerCode, int cantSemestres, ArrayList<Estudiante> estudiantes) {
+    public Carrera(String careerName, String careerCode, int cantSemestres, ArrayList<Estudiante> estudiantes) {
         this.careerName = careerName;
         this.careerCode = careerCode;
         this.cantSemestres = cantSemestres;
